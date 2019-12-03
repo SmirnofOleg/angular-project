@@ -4,7 +4,7 @@ import { Component, OnInit } from "@angular/core";
   selector: "app-form",
   template: `
     <h3>form</h3>
-  `,
+  `, // это лишнее, раз есть templateUrl
   templateUrl: "./form.component.html",
   styleUrls: ["./form.component.css"]
 })
